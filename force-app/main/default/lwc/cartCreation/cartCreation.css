@@ -1,0 +1,46 @@
+.cart-container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+lightning-button {
+    margin-right: 10px;
+}
+
+/* Add these new styles */
+lightning-combobox {
+    --sds-c-input-spacing-horizontal-start: 0;
+    --sds-c-input-spacing-horizontal-end: 0;
+}
+
+.combobox-container {
+    height: 100%;
+}
+
+lightning-combobox .slds-input {
+    min-height: 32px;
+}
+
+/* Add this new style to align the combobox with other inputs */
+td lightning-combobox {
+    margin-top: -8px;
+    display: block;
+}

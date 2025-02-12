@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'PizzaPress';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('PizzaPress-Regular.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('PizzaPress-Regular.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('PizzaPress-Regular.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('PizzaPress-Regular.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Regular') format('svg'), url('PizzaPress-Regular.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressAntique';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('PizzaPress-Antique.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('PizzaPress-Antique.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('PizzaPress-Antique.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('PizzaPress-Antique.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Antique') format('svg'), url('PizzaPress-Antique.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressFill';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('PizzaPress-Fill.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('PizzaPress-Fill.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('PizzaPress-Fill.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('PizzaPress-Fill.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Fill') format('svg'), url('PizzaPress-Fill.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressInline';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('PizzaPress-Inline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('PizzaPress-Inline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('PizzaPress-Inline.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('PizzaPress-Inline.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Inline') format('svg'), url('PizzaPress-Inline.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressOrnaments';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('PizzaPress-Ornaments.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('PizzaPress-Ornaments.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('PizzaPress-Ornaments.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('PizzaPress-Ornaments.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Ornaments') format('svg'), url('PizzaPress-Ornaments.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressOutline';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('PizzaPress-Outline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('PizzaPress-Outline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('PizzaPress-Outline.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('PizzaPress-Outline.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Outline') format('svg'), url('PizzaPress-Outline.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressShadow';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('PizzaPress-Shadow.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('PizzaPress-Shadow.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('PizzaPress-Shadow.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('PizzaPress-Shadow.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Shadow') format('svg'), url('PizzaPress-Shadow.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}

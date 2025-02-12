@@ -1,0 +1,17 @@
+.forceHighlightsStencilDesktop .fade-text:after {
+    display: none;
+}
+.Breadcrumbs{
+    display: none!important;
+}
+.forceListViewSettingsMenu {
+    display: none!important;
+}
+.forceBreadCrumbItem{
+     display: none!important;
+}
+.slds-breadcrumb slds-list--horizontal{
+         display: none!important;
+}
+.slds-breadcrumb .slds-list__item::before, .slds-breadcrumb__item::before {display: none!important;}
+:root { --dxp-c-section-columns-max-width: 1170px; }

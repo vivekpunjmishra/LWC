@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'PizzaPress';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('../fonts/pizza-press/PizzaPress-Regular.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('../fonts/pizza-press/PizzaPress-Regular.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('../fonts/pizza-press/PizzaPress-Regular.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('../fonts/pizza-press/PizzaPress-Regular.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Regular') format('svg'), url('../fonts/pizza-press/PizzaPress-Regular.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressAntique';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('../fonts/pizza-press/PizzaPress-Antique.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('../fonts/pizza-press/PizzaPress-Antique.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('../fonts/pizza-press/PizzaPress-Antique.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('../fonts/pizza-press/PizzaPress-Antique.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Antique') format('svg'), url('../fonts/pizza-press/PizzaPress-Antique.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressFill';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('../fonts/pizza-press/PizzaPress-Fill.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('../fonts/pizza-press/PizzaPress-Fill.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('../fonts/pizza-press/PizzaPress-Fill.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('../fonts/pizza-press/PizzaPress-Fill.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Fill') format('svg'), url('../fonts/pizza-press/PizzaPress-Fill.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressInline';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('../fonts/pizza-press/PizzaPress-Inline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('../fonts/pizza-press/PizzaPress-Inline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('../fonts/pizza-press/PizzaPress-Inline.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('../fonts/pizza-press/PizzaPress-Inline.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Inline') format('svg'), url('../fonts/pizza-press/PizzaPress-Inline.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressOrnaments';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('../fonts/pizza-press/PizzaPress-Ornaments.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('../fonts/pizza-press/PizzaPress-Ornaments.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('../fonts/pizza-press/PizzaPress-Ornaments.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('../fonts/pizza-press/PizzaPress-Ornaments.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Ornaments') format('svg'), url('../fonts/pizza-press/PizzaPress-Ornaments.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressOutline';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('../fonts/pizza-press/PizzaPress-Outline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('../fonts/pizza-press/PizzaPress-Outline.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('../fonts/pizza-press/PizzaPress-Outline.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('../fonts/pizza-press/PizzaPress-Outline.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Outline') format('svg'), url('../fonts/pizza-press/PizzaPress-Outline.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}
+
+@font-face {
+  font-family: 'PizzaPressShadow';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('../fonts/pizza-press/PizzaPress-Shadow.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ');
+  src: url('../fonts/pizza-press/PizzaPress-Shadow.eot?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#iefix') format('embedded-opentype'), url('../fonts/pizza-press/PizzaPress-Shadow.woff?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('woff'), url('../fonts/pizza-press/PizzaPress-Shadow.svg?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ#PizzaPress-Shadow') format('svg'), url('../fonts/pizza-press/PizzaPress-Shadow.ttf?orgId=00DF00000006uSq&orgId=00Dc0000003l4aJ&orgId=00D3F000000DTaQ') format('truetype');
+}

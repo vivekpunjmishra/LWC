@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-m-top_small slds-m-bottom_medium">
+        <lightning-button variant="brand" 
+                        label={showPlayers} 
+                        onclick={handleClick}
+                        class="slds-m-left_x-small">
+        </lightning-button>
+    </div>
+    <template if:true={isVisible}>
+        <div style="height: 250px;">
+            <lightning-datatable key-field="id"
+                                data={data}
+                                columns={columns}
+                                onrowaction={handleRowAction}
+                                hide-checkbox-column>
+            </lightning-datatable>
+        </div>
+    </template>
+</template>

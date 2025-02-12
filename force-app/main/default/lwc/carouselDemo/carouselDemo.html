@@ -1,0 +1,37 @@
+<template>
+        <lightning-carousel>
+            <template if:true={players}>
+                <template for:each={players} for:item="footballer">
+                <lightning-carousel-image 
+                    key={footballer.id}
+                    src={footballer.src}
+                    header={footballer.header}
+                    description={footballer.description}
+                    alternative-text="Text"
+                    href={footballer.href}>
+                </lightning-carousel-image>
+                </template>
+            </template>
+            <!-- <lightning-carousel-image 
+            src="https://c4.wallpaperflare.com/wallpaper/702/432/929/car-chevrolet-corvette-c7-chevrolet-corvette-c1-chevrolet-corvette-c2-wallpaper-preview.jpg"
+            header="chevrolet"
+            description="car, Chevrolet Corvette C7, Chevrolet Corvette C1, Chevrolet Corvette C2"
+            alternative-text="Test"
+            href="https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C7)">
+            </lightning-carousel-image>
+            <lightning-carousel-image 
+            src="https://c4.wallpaperflare.com/wallpaper/702/432/929/car-chevrolet-corvette-c7-chevrolet-corvette-c1-chevrolet-corvette-c2-wallpaper-preview.jpg"
+            header="chevrolet"
+            description="car, Chevrolet Corvette C7, Chevrolet Corvette C1, Chevrolet Corvette C2"
+            alternative-text="Test"
+            href="https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C7)">
+            </lightning-carousel-image>
+            <lightning-carousel-image 
+            src="https://c4.wallpaperflare.com/wallpaper/702/432/929/car-chevrolet-corvette-c7-chevrolet-corvette-c1-chevrolet-corvette-c2-wallpaper-preview.jpg"
+            header="chevrolet"
+            description="car, Chevrolet Corvette C7, Chevrolet Corvette C1, Chevrolet Corvette C2"
+            alternative-text="Test"
+            href="https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C7)">
+            </lightning-carousel-image> -->
+        </lightning-carousel>
+</template>

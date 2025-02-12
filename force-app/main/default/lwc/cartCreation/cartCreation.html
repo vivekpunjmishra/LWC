@@ -1,0 +1,63 @@
+<template>
+    <lightning-card>
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>NR.</th>
+                    <th>Store Number</th>
+                    <th>Flex Client Use</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={cartItems} for:item="item" for:index="index">
+                    <tr key={item.id}>
+                        <td>{item.rowNumber}</td>
+                        <td>
+                            <input type="text"
+                                class="slds-input"
+                                value={item.storeNumber}
+                                data-id={item.id}
+                                onchange={handleInputChange}
+                                data-field="storeNumber">
+                        </td>
+                        <td>
+                            <div class="combobox-container">
+                                <lightning-combobox
+                                    options={usageOptions}
+                                    value={item.usage}
+                                    data-id={item.id}
+                                    onchange={handleInputChange}
+                                    data-field="usage">
+                                </lightning-combobox>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number"
+                                class="slds-input"
+                                min="1"
+                                value={item.quantity}
+                                data-id={item.id}
+                                onchange={handleInputChange}
+                                data-field="quantity">
+                        </td>
+                        <td>
+                            <lightning-button-icon icon-name="utility:delete"
+                                alternative-text="Delete"
+                                data-id={item.id}
+                                onclick={handleRemoveRow}>
+                            </lightning-button-icon>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+        <div class="buttons">
+            <lightning-button label="Add Row" onclick={handleAddRow}></lightning-button>
+            <lightning-button variant="brand" label="Add To Cart" onclick={handleAddToCart}></lightning-button>
+        </div>
+    </div>
+    </lightning-card>
+</template>

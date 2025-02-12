@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Combobox demo by Salseforce Noob">
+        <!-- lighting combobox -->
+         <lightning-combobox label="Status"
+                            value={value}
+                            placeholder="Select Account"
+                            options={options}
+                            onchange={handleChanged}>
+                        </lightning-combobox>
+
+        <p>Selected value is: {value}</p>                
+    </lightning-card>
+   <template if:true = {cardVisible}>
+    <lightning-card title="Datatable card">
+        <!-- contact datatable starts here -->
+         <div style="height: 200px;">
+            <lightning-datatable key-field="Id"
+                                data={data}
+                                columns={columns}>
+                            </lightning-datatable>
+         </div>
+    </lightning-card>
+   </template>
+</template>

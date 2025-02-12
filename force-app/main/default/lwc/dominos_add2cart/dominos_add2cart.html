@@ -1,0 +1,78 @@
+<template>
+    <lightning-card title="Cart Creation">
+        <div class="slds-p-around_medium">
+            <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                <thead>
+                    <tr class="slds-text-title_caps">
+                        <th scope="col">Nr.</th>
+                        <th scope="col">Store Number</th>
+                        <th scope="col">Usage</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={rowList} for:item="row" for:index="index">
+                        <tr key={row.id} class="slds-hint-parent">
+                            <td>{row.number}</td>
+                            <td>
+                                <lightning-input 
+                                    name="storeNumber"
+                                    type="text"
+                                    value={row.storeNumber}
+                                    data-id={index}
+                                    onchange={handleInputChange}>
+                                </lightning-input>
+                            </td>
+                            <td>
+                                <lightning-combobox
+                                name="usage"
+                                value={value}
+                                placeholder="Select Usage"
+                                options={options}
+                                data-id={index}
+                                onchange={handleInputChange}>
+                            </lightning-combobox>
+                            </td>
+                            <td>
+                                <lightning-input 
+                                    name="qty"
+                                    type="number"
+                                    value={row.qty}
+                                    data-id={index}
+                                    onchange={handleInputChange}>
+                                </lightning-input>
+                            </td>
+                            <td>
+                                <lightning-button-icon
+                                    icon-name="utility:delete"
+                                    alternative-text="Delete"
+                                    class="slds-m-left_xx-small"
+                                    title="Delete"
+                                    onclick={removeRow}
+                                    data-id={index}>
+                                </lightning-button-icon>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <div class="slds-align_absolute-center">
+            <div class="slds-p-top_medium slds-p-bottom_medium">
+                <lightning-button
+                    label="Add Row"
+                    variant="neutral"
+                    onclick={addRow}
+                    class="slds-m-right_small">
+                </lightning-button>
+                <lightning-button
+                variant="brand"
+                label="Create Records"
+                title="Create Records"
+                onclick={handleSave}>
+            </lightning-button>
+            </div>
+           </div> 
+    </lightning-card>
+</template>
